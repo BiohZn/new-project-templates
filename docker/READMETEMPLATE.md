@@ -2,7 +2,7 @@
 [forumurl]: https://forum.linuxserver.io
 [ircurl]: https://www.linuxserver.io/irc/
 [podcasturl]: https://www.linuxserver.io/podcast/
-[appurl]: www.example.com
+[appurl]: https://github.com/Novik/ruTorrent
 [hub]: https://hub.docker.com/r/example/example/
 
 
