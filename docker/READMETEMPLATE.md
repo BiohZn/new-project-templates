@@ -9,15 +9,6 @@
 [![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png?v=4&s=4000)][linuxserverurl]
 
 
-| Contact information:- |
-| :---: |
-
-| Type | Address/Details | 
-| :---: | --- |
-| Forum | [Linuserver.io forum][forumurl] |
-| IRC | freenode at `#linuxserver.io` more information at:- [IRC][ircurl]
-| Podcast | Covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation! [Linuxserver.io Podcast][podcasturl] |
-
 
 The [LinuxServer.io][linuxserverurl] team brings you another image release featuring easy user mapping and based on alpine linux with s6 overlay.
 
@@ -98,3 +89,12 @@ Insert a basic user guide here to get a n00b up and running with the software in
 |  Date | Changes |
 | :---: | --- |
 | dd.MM.yy |  Initial Release. |
+
+| Contact information:- |
+| :---: |
+
+| Type | Address/Details | 
+| :---: | --- |
+| Forum | [Linuserver.io forum][forumurl] |
+| IRC | freenode at `#linuxserver.io` more information at:- [IRC][ircurl]
+| Podcast | Covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation! [Linuxserver.io Podcast][podcasturl] |
