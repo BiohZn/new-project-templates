@@ -10,10 +10,7 @@
 
 The [LinuxServer.io][linuxserverurl] team brings you another image release featuring easy user mapping and based on alpine linux with s6 overlay.
 
-&nbsp;
-
 ## Support options
-
 | Type | Address/Details | 
 | :---: | --- |
 | Forum | [Linuserver.io forum][forumurl] |
