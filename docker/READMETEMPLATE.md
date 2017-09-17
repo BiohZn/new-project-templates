@@ -21,7 +21,7 @@ The [LinuxServer.io][linuxserverurl] team brings you another image release featu
 
 &nbsp;
 
-## linuxserver/rutorrent
+# linuxserver/rutorrent
 
 &nbsp; 
 
