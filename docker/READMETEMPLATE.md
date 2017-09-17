@@ -90,7 +90,7 @@ Insert a basic user guide here to get a n00b up and running with the software in
 | dd.MM.yy |  Initial Release. |
 
 &nbsp;
-## Contact information
+## Support options
 
 | Type | Address/Details | 
 | :---: | --- |
