@@ -13,17 +13,22 @@
 
 The [LinuxServer.io][linuxserverurl] team brings you another image release featuring easy user mapping and based on alpine linux with s6 overlay.
 
+[![](https://images.microbadger.com/badges/version/linuxserver/rutorrent.svg)](https://microbadger.com/images/linuxserver/rutorrent "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/linuxserver/rutorrent.svg)](https://microbadger.com/images/linuxserver/rutorrent "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/rutorrent.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/linuxserver/rutorrent.svg)][hub][![Build Status](https://ci.linuxserver.io/buildStatus/icon?job=Docker-Builders/x86-64/x86-64-rutorrent)](https://ci.linuxserver.io/job/Docker-Builders/job/x86-64/job/x86-64-rutorrent/)
+
+&nbsp;
+
 ## linuxserver/rutorrent
 
 &nbsp; 
 
-[![](https://images.microbadger.com/badges/version/linuxserver/rutorrent.svg)](https://microbadger.com/images/linuxserver/rutorrent "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/linuxserver/rutorrent.svg)](https://microbadger.com/images/linuxserver/rutorrent "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/rutorrent.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/linuxserver/rutorrent.svg)][hub][![Build Status](https://ci.linuxserver.io/buildStatus/icon?job=Docker-Builders/x86-64/x86-64-rutorrent)](https://ci.linuxserver.io/job/Docker-Builders/job/x86-64/job/x86-64-rutorrent/)
-
 Popular rtorrent client with a webui for ease of use. [Rutorrent](https://github.com/Novik/ruTorrent)
+
+&nbsp;
 
 [![rutorrent](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rutorrent.jpg)][appurl]
 
-&nbsp; 
+&nbsp;
+
 ## Usage
 
 ```
@@ -35,7 +40,8 @@ docker create \
   <image-name>
 ```
 
-&nbsp; 
+&nbsp;
+
 ## Parameters
 
 `The parameters are split into two halves, separated by a colon, the left hand side representing the host and the right the container side. 
@@ -52,7 +58,8 @@ http://192.168.x.x:8080 would show you what's running INSIDE the container on po
 | `-e PGID` | for GroupID, see below for explanation |
 | `-e PUID` | for UserID, see below for explanation |
 
-&nbsp; 
+&nbsp;
+
 ### User / Group Identifiers
 
 Sometimes when using volumes (`-v` flags) permissions issues can arise between the host OS and the container, we avoid this issue by allowing you to specify the user `PUID` and group `PGID`.
@@ -72,7 +79,8 @@ In this instance `PUID=1001` and `PGID=1001`, to find yours use `id user` as bel
 
 Insert a basic user guide here to get a n00b up and running with the software inside the container. DELETE ME
 
-&nbsp; 
+&nbsp;
+
 ## Container access and information.
 
 | Function | Command |
@@ -82,7 +90,8 @@ Insert a basic user guide here to get a n00b up and running with the software in
 | Container version number | `docker inspect -f '{{ index .Config.Labels "build_version" }}' <container-name>` |
 | Image version number |  `docker inspect -f '{{ index .Config.Labels "build_version" }}' <image-name>` |
 
-&nbsp; 
+&nbsp;
+
 ## Versions
 
 |  Date | Changes |
@@ -90,6 +99,7 @@ Insert a basic user guide here to get a n00b up and running with the software in
 | dd.MM.yy |  Initial Release. |
 
 &nbsp;
+
 ## Support options
 
 | Type | Address/Details | 
