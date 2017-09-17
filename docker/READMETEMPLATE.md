@@ -21,12 +21,17 @@
 
 The [LinuxServer.io][linuxserverurl] team brings you another image release featuring easy user mapping and based on alpine linux with s6 overlay.
 
+&nbsp; 
+
 # <image-name>
+
+&nbsp; 
 
 Provide a short, concise description of the application. No more than two SHORT paragraphs. Link to sources where possible and include an image illustrating your point if necessary. Point users to the original applications website, as that's the best place to get support - not here.
 
 `IMPORTANT, replace all instances of <image-name> with the correct dockerhub repo (ie linuxserver/plex) and <container-name> information (ie, plex)`
 
+&nbsp; 
 ## Usage
 
 ```
@@ -38,6 +43,7 @@ docker create \
   <image-name>
 ```
 
+&nbsp; 
 ## Parameters
 
 `The parameters are split into two halves, separated by a colon, the left hand side representing the host and the right the container side. 
@@ -54,6 +60,7 @@ http://192.168.x.x:8080 would show you what's running INSIDE the container on po
 | `-e PGID` | for GroupID, see below for explanation |
 | `-e PUID` | for UserID, see below for explanation |
 
+&nbsp; 
 ### User / Group Identifiers
 
 Sometimes when using volumes (`-v` flags) permissions issues can arise between the host OS and the container, we avoid this issue by allowing you to specify the user `PUID` and group `PGID`.
@@ -67,11 +74,13 @@ In this instance `PUID=1001` and `PGID=1001`, to find yours use `id user` as bel
     uid=1001(dockeruser) gid=1001(dockergroup) groups=1001(dockergroup)
 ```
 
+&nbsp; 
+
 ## Setting up the application
 
 Insert a basic user guide here to get a n00b up and running with the software inside the container. DELETE ME
 
-
+&nbsp; 
 ## Container access and information.
 
 | Function | Command |
@@ -81,6 +90,7 @@ Insert a basic user guide here to get a n00b up and running with the software in
 | Container version number | `docker inspect -f '{{ index .Config.Labels "build_version" }}' <container-name>` |
 | Image version number |  `docker inspect -f '{{ index .Config.Labels "build_version" }}' <image-name>` |
 
+&nbsp; 
 ## Versions
 
 |  Date | Changes |
