@@ -13,9 +13,7 @@
 
 The [LinuxServer.io][linuxserverurl] team brings you another image release featuring easy user mapping and based on alpine linux with s6 overlay.
 
-&nbsp; 
-
-# linuxserver/rutorrent
+## linuxserver/rutorrent
 
 &nbsp; 
 
